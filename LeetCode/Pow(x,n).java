@@ -19,3 +19,24 @@ class Solution {
         return helper(x,ans,(n-1));
     }
 }
+
+
+// Approch 2
+
+class Solution {
+    public double myPow(double x, int n) {
+        double result = 1;
+        if(n > 0){
+            for (int i = 0; i < n; i++) {
+                result = x * result;
+            }
+        }else {
+            for (int i = n; i != 0; i++) {
+                result = x * result;
+            }
+
+            return 1 / result;
+        }
+       return result;
+    }
+}
