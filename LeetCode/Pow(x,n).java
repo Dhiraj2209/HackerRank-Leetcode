@@ -1,4 +1,4 @@
-class Solution {
+class Solution { //O(n)
     public double myPow(double x, int n) {
         double ans = helper(x,1,Math.abs(n));
         if(n < 0){
@@ -23,7 +23,7 @@ class Solution {
 
 // Approch 2
 
-class Solution {
+class Solution { //O(n)
     public double myPow(double x, int n) {
         double result = 1;
         if(n > 0){
