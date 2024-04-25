@@ -37,7 +37,7 @@ class Result {
             Date d = new Date((year-1900), (month -1),day);
             da = d.getDay();
         }
-        switch(da){
+        switch(da){ // matching values of derived day da
             case 1 : return "MONDAY";
             case 2 : return "TUESDAY";
             case 3 : return "WEDNESDAY";
