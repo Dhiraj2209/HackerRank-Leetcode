@@ -38,7 +38,7 @@ int main() {
         }
         else if(num[i] == '9'){
             j++;
-        }
+        } //We can also use Switch
     }
     printf("%d %d %d %d %d %d %d %d %d %d", a,b,c,d,e,f,g,h,s,j);    
     return 0;
