@@ -2,14 +2,14 @@
 #include <stdlib.h>
 #define MAX_HEIGHT 41
 
-struct box
+struct box //Structure of Box
 {
 int length, width, height;
 };
 
 typedef struct box box;
 
-int get_volume(box b) {
+int get_volume(box b) { // Volume of Box
 	/**
 	* Return the volume of the box
 	*/
@@ -27,7 +27,7 @@ int is_lower_than_max_height(box b) {
     return 0;
 }
 
-int main()
+int main() //O(n)
 {
 	int n;
 	scanf("%d", &n);
