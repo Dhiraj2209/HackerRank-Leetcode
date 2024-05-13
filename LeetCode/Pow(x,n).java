@@ -40,3 +40,5 @@ class Solution { //O(n)
        return result;
     }
 }
+
+//Approch 3
